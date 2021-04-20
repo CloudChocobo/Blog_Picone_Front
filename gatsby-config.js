@@ -13,16 +13,13 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-strapi`,
+      resolve: "gatsby-source-strapi",
       options: {
-        apiURL: process.env.DEPLOY_URL
-            ? "https://blog-picone.herokuapp.com"
-            : "http://localhost:1337",
+        apiURL: process.env.API_URL || "http://localhost:1337",
         contentTypes: ["article", "category", "writer"],
         singleTypes: [`homepage`, `global`],
         queryLimit: 1000,
       },
-
     },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
