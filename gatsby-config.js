@@ -16,7 +16,7 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: {
         apiURL: process.env.DEPLOY_URL
-            ? "https://blog-picone.herokuapp.com/"
+            ? "https://blog-picone.herokuapp.com"
             : "http://localhost:1337",
         contentTypes: ["article", "category", "writer"],
         singleTypes: [`homepage`, `global`],
