@@ -139,8 +139,7 @@ useEffect(fetchCommentaires, [article]) // ne se lance qu'une fois et se rafraî
          <div className="cadreForm">
          <div className="Formulaire">
           <form onSubmit={soumettre}>
-            <input type="text" name="nom" placeholder="Votre nom" required
-       minlength="4" maxlength="20" />
+            <input type="text" name="nom" placeholder="Votre nom" />
             <input type="text" name="texte" placeholder="Votre commentaire" />
             <button type="submit">Envoyer</button>
           </form>

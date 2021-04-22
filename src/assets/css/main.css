@@ -47,7 +47,6 @@ img:hover {
     margin-right: 25%;
     margin-bottom: 2%;
 }
-
 .Formulaire {
     width: 100%;
 }
@@ -61,22 +60,18 @@ width: 100%;
 .commentaire + .commentaire {
 	  margin-top: 2%;
 }
-
 .commentaire .texte {
     margin-left: 25%;
     margin-right: 25%;
     border: 1px dashed black ;
     padding-left: 5px;
     padding-right: 5px;
-
 }
-
 .commentaire .nom {
     font-weight: bold;
     margin-left: 25%;
     margin-right: 25%;
 }
-
 .commentaire .date {
     margin-left: 25%;
     margin-right: 25%;
