@@ -40,23 +40,46 @@ img:hover {
     transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1) !important;
 }
 
-.formulaire {
-    dislay: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-left: 150px;
+.cadreForm{
+    border: 1px dashed black ;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
 }
-.commentaires{
-    margin-left: 10px;
+
+.Formulaire {
+    width: 100%;
+}
+.Formulaire .texte{
+    width: 50%;
+}
+input {
+height: 30px;
+width: 100%;
+}
+.commentaire + .commentaire {
+	  margin-top: 2%;
+}
+
+.commentaire .texte {
+    margin-left: 25%;
+    margin-right: 25%;
     border: 1px dashed black ;
     padding-left: 5px;
+    padding-right: 5px;
+
 }
 
-.commentaires .auteur{
+.commentaire .nom {
     font-weight: bold;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-.commentaires .date{
-    opacity: 0.9;
+.commentaire .date {
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+
