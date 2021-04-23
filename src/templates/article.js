@@ -151,5 +151,4 @@ useEffect(fetchCommentaires, [article]) // ne se lance qu'une fois et se rafraî
     </Layout>
   );
 };
-
 export default Article;
